@@ -2,6 +2,8 @@
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
+  width: 1440px;
+height: 3300px;
 }
 a {
   text-decoration: none;
@@ -13,7 +15,18 @@ button {
   font-family: inherit;
 }
 .header {
+  display: flex;
+  width: 1440px;
+height: 72px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+}
+.header-navigation {
   flex-shrink: 0;
+  display: inline-flex;
+align-items: flex-start;
+gap: 40px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -23,9 +36,11 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  width: 44px;
 }
 .logo2 {
   color: #2e2f42;
+  width: 71px;
 }
 .nav-link {
   font-weight: 500;
@@ -57,6 +72,9 @@ button {
 }
 .section-one {
   background-color: #2e2f42;
+  width: 1440px;
+height: 600px;
+flex-shrink: 0;
 }
 .section-one-title {
   font-size: 56px;
@@ -64,6 +82,7 @@ button {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  width: 496px;
 }
 .section-one-button {
   background-color: #4d5ae5;
@@ -74,6 +93,10 @@ button {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
 }
 .section-one-button:hover {
   background-color: #404bbf;
@@ -81,6 +104,9 @@ button {
 
 .section-one-button:focus {
   background-color: #404bbf;
+}
+.section-two {
+  
 }
 .section-two-title-title {
   font-size: 36px;
@@ -111,12 +137,21 @@ button {
 }
 .footer {
   background-color: #2e2f42;
+  width: 1440px;
+height: 312px;
+flex-shrink: 0;
 }
 .footer-p {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  width: 264px;
 }
 .footer-span {
   color: #f4f4fd;
+  display: flex;
+width: 71px;
+height: 21px;
+flex-direction: column;
+justify-content: center;
 }
