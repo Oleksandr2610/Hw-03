@@ -21,6 +21,10 @@ height: 72px;
 justify-content: center;
 align-items: center;
 flex-shrink: 0;
+border-bottom: 1px solid #e7e9fc;
+}
+.header-heder {
+  display: flex;
 }
 .header-navigation {
   flex-shrink: 0;
@@ -106,7 +110,7 @@ gap: 10px;
   background-color: #404bbf;
 }
 .section-two {
-  
+
 }
 .section-two-title-title {
   font-size: 36px;
@@ -131,6 +135,7 @@ gap: 10px;
 }
 .sectiol-list {
   background-color: #ffffff;
+  display: block;
 }
 .section-three {
   background-color: #f4f4fd;
