@@ -11,7 +11,6 @@ ul {
 }
 button {
   font-family: inherit;
-
 }
 img {
   display: block;
@@ -22,21 +21,18 @@ img {
   display: inline-flex;
   gap: 40px;
   align-items: center;
-  
 }
-.hesder {
-  border-bottom: 1px solid #e7e9fc;
 
+.hesder {
 }
 .header-container {
-display: flex;
-
+  display: flex;
+  border-bottom: 1px solid #e7e9fc;
 }
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
-  
 }
 
 .logo {
@@ -114,7 +110,6 @@ display: flex;
   background-color: #404bbf;
 }
 
-
 .section-two-title-title {
   font-size: 36px;
   line-height: 1.11;
@@ -171,6 +166,4 @@ display: flex;
   display: flex;
   justify-content: center;
   gap: 20 px;
-
-
 }
