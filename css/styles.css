@@ -28,9 +28,9 @@ img {
 }
 .container {
   display: flex;
-   width: 1158px;
- margin: 0 auto;
- padding: 0 15px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .logo {
@@ -42,6 +42,9 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   padding: 24px 0;
+}
+.logo-container {
+  margin-right: 76px;
 }
 .logo2 {
   color: #2e2f42;
@@ -69,11 +72,16 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .header-contact-link:hover {
   color: #404bbf;
 }
 .header-contact-link:focus {
   color: #404bbf;
+}
+.container-navigation {
+  display: flex;
+  align-items: center;
 }
 .section-one {
   background-color: #2e2f42;
