@@ -16,7 +16,7 @@ img {
   display: block;
 }
 
-.header-navigation {
+.header-navigation-container {
   display: flex;
   align-items: center;
 }
@@ -41,9 +41,7 @@ img {
   color: #4d5ae5;
   padding: 24px 0;
 }
-.logo-container {
-  margin-right: 76px;
-}
+
 .logo2 {
   color: #2e2f42;
   padding: 24px 0;
