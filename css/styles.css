@@ -16,13 +16,14 @@ img {
   display: block;
 }
 
-.header-navigation-container {
+.header-navigation {
   display: flex;
   align-items: center;
 }
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
 }
 .container {
   display: flex;
@@ -39,7 +40,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 24px 0;
+  margin-right: 76px;
 }
 
 .logo2 {
