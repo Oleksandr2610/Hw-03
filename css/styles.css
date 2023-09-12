@@ -17,9 +17,7 @@ img {
 }
 
 .header-navigation {
-  flex-shrink: 0;
-  display: inline-flex;
-  gap: 40px;
+  display: flex;
   align-items: center;
 }
 
@@ -78,10 +76,6 @@ img {
 }
 .header-contact-link:focus {
   color: #404bbf;
-}
-.container-navigation {
-  display: flex;
-  align-items: center;
 }
 .section-one {
   background-color: #2e2f42;
