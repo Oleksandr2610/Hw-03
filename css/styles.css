@@ -242,10 +242,10 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.list-two .sectiol-list {
+.list-two .sectiol-list .sectiol-list-three {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
-.list-tree .sectiol-list-three {
+.list-tree .sectiol-list-three .sectiol-list-three {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .list-four .product-list {
