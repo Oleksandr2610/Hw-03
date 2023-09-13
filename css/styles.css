@@ -3,35 +3,9 @@
   color: #434455;
   background-color: #fff;
 }
-a {
-  text-decoration: none;
-}
-ul {
-  list-style-type: none;
-}
-button {
-  font-family: inherit;
-}
-img {
-  display: block;
-}
-
-.navigation {
-  display: flex;
-  align-items: center;
-}
-
 .header {
-  border-bottom: 1px solid #e7e9fc;
-  display: flex;
+  flex-shrink: 0;
 }
-.container {
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -40,13 +14,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
 }
-
 .logo2 {
   color: #2e2f42;
-  padding: 24px 0;
-  margin-right: 76px;
 }
 .nav-link {
   font-weight: 500;
@@ -70,7 +40,6 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
 .header-contact-link:hover {
   color: #404bbf;
 }
@@ -86,7 +55,6 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  width: 496px;
 }
 .section-one-button {
   background-color: #4d5ae5;
@@ -97,10 +65,6 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
 }
 .section-one-button:hover {
   background-color: #404bbf;
@@ -109,7 +73,6 @@ img {
 .section-one-button:focus {
   background-color: #404bbf;
 }
-
 .section-two-title-title {
   font-size: 36px;
   line-height: 1.11;
@@ -133,41 +96,18 @@ img {
 }
 .sectiol-list {
   background-color: #ffffff;
-  display: block;
 }
 .section-three {
   background-color: #f4f4fd;
 }
 .footer {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 312px;
-  flex-shrink: 0;
 }
 .footer-p {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-  width: 264px;
 }
 .footer-span {
   color: #f4f4fd;
-  display: flex;
-  width: 71px;
-  height: 21px;
-  flex-direction: column;
-  justify-content: center;
-}
-.list {
-  display: flex;
-  gap: 24px;
-  margin-right: 24px;
-}
-.section-two {
-  padding: 120px 0;
-}
-.menu {
-  display: flex;
-  gap: 40px;
-  margin-right: 40px;
 }
