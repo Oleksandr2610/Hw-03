@@ -122,7 +122,7 @@ img {
 }
 .sectiol-list {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .section-three {
   background-color: #f4f4fd;
@@ -244,6 +244,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
   margin-bottom: 16px;
+  display: inline-block;
 }
