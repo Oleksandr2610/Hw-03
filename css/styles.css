@@ -223,7 +223,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 48px;
+  row-gap: 24px;
 }
 .addition {
   padding: 32px 16px;
@@ -241,13 +241,4 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-.list-two .sectiol-list .sectiol-list-three {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-}
-.list-tree .sectiol-list-three .sectiol-list-three {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-}
-.list-four .product-list {
-  width: calc((100% - 48px) / 3);
 }
