@@ -157,3 +157,11 @@ img {
   flex-direction: column;
   justify-content: center;
 }
+.list {
+  display: flex;
+  gap: 24px;
+  margin-right: 24px;
+}
+.section-two {
+  padding: 120px 0;
+}
