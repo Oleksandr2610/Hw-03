@@ -46,6 +46,7 @@ img {
 .logo2 {
   color: #2e2f42;
   padding: 24px 0;
+  margin-right: 76px;
 }
 .nav-link {
   font-weight: 500;
@@ -164,4 +165,9 @@ img {
 }
 .section-two {
   padding: 120px 0;
+}
+.menu {
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
 }
