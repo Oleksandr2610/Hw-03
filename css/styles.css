@@ -167,7 +167,6 @@ img {
 .list-two {
   display: flex;
   gap: 24px;
-  margin-right: 24px;
 }
 .section-three-title-title {
   font-size: 36px;
@@ -186,6 +185,8 @@ img {
 .sectiol-list-three {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  margin-right: 24px;
+  width: calc((100% - 3 * 24px) / 4);
 }
 .name-position {
   padding: 32px 0;
@@ -224,7 +225,6 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-bottom: 48px;
 }
 .addition {
   padding: 32px 16px;
@@ -243,6 +243,11 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.product-list .list-four {
+.sectiol-list {
+  margin-right: 24px;
+  width: calc((100% - 3 * 24px) / 4);
+}
+.product-list {
+  margin-bottom: 48px;
   width: calc((100% - 48px) / 3);
 }
