@@ -173,17 +173,10 @@ img {
   padding: 120px 0;
 }
 .list-two {
-  display: inline-block;
-  align-items: center;
-  flex-shrink: 0;
-  margin-bottom: 16px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+  display: flex;
+  gap: 24px;
+  margin-right: 24px;
+  padding: 120px 0;
 }
 .section-three-title-title {
   font-size: 36px;
@@ -201,8 +194,6 @@ img {
   padding: 120px 0;
 }
 .sectiol-list-three {
-  background-color: #ffffff;
-  border-radius: 0px 0px 4px 4px;
   width: calc((100% - 3 * 24px) / 4);
 }
 .name-position {
@@ -225,7 +216,6 @@ img {
   text-align: center;
 }
 .section-four {
-  padding-top: 120px;
   padding: 120px 0 120px 0;
 }
 .section-four-title-title {
