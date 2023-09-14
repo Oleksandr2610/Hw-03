@@ -240,7 +240,7 @@ img {
   margin-bottom: 8px;
 }
 .logo-two {
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   flex-shrink: 0;
   margin-bottom: 16px;
