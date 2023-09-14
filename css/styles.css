@@ -12,9 +12,12 @@ ul {
 button {
   font-family: inherit;
 }
-img {
-  display: block;
+
+  img {
+	display: block;
+	max-width: 100%;
 }
+
 .header {
   flex-shrink: 0;
   border-bottom: 1px solid #e7e9fc;
@@ -256,7 +259,5 @@ img {
   
   width: calc((100% - 48px) / 3);
 }
-.sectiol-list-four {
-  background-color: #ffffff;
-border-radius: 0px 0px 4px 4px;
-}
+
+
