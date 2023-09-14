@@ -240,7 +240,6 @@ img {
   margin-bottom: 8px;
 }
 .logo-two {
-  display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -255,4 +254,7 @@ img {
 }
 .product-list {
   width: calc((100% - 48px) / 3);
+}
+logo-two {
+  display: inline-block;
 }
