@@ -214,7 +214,7 @@ img {
 }
 .section-four {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px 0;
 }
 .section-four-title-title {
   font-size: 36px;
@@ -231,7 +231,7 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   margin-bottom: 48px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px 0;
 }
 .addition {
   padding: 32px 16px;
