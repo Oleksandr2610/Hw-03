@@ -13,9 +13,9 @@ button {
   font-family: inherit;
 }
 
-  img {
-	display: block;
-	max-width: 100%;
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .header {
@@ -125,7 +125,6 @@ button {
 }
 .sectiol-list {
   background-color: #ffffff;
-
 }
 .section-three {
   background-color: #f4f4fd;
@@ -171,8 +170,8 @@ button {
 .list-two {
   display: flex;
   gap: 24px;
-   margin-right: 24px;
-   padding: 120px 0;
+  margin-right: 24px;
+  padding: 120px 0;
 }
 .section-three-title-title {
   font-size: 36px;
@@ -232,7 +231,7 @@ button {
   column-gap: 24px;
   row-gap: 48px;
   margin-bottom: 48px;
-   padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 .addition {
   padding: 32px 16px;
@@ -252,12 +251,8 @@ button {
   color: #4d5ae5;
 }
 .sectiol-list {
-  
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .product-list {
-  
   width: calc((100% - 48px) / 3);
 }
-
-
