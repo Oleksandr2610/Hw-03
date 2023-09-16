@@ -14,6 +14,7 @@ button {
 }
 
 img {
+  display: block;
 }
 
 .header {
@@ -123,6 +124,7 @@ img {
 }
 .sectiol-list {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
 .section-three {
   background-color: #f4f4fd;
@@ -257,9 +259,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-.sectiol-list-four {
-  width: calc((100% - 48px) / 3);
 }
 .product-list {
   width: calc((100% - 48px) / 3);
