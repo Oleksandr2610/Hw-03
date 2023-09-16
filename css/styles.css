@@ -151,7 +151,7 @@ img {
   flex-shrink: 0;
   border-bottom: 1px solid #e7e9fc;
 }
-.container-header {
+.header-container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
