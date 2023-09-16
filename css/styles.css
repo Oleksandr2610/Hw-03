@@ -157,7 +157,6 @@ h2 {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
 }
 .header-navigation {
   display: flex;
@@ -272,4 +271,10 @@ h2 {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.container-header {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
