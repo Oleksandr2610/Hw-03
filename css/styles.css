@@ -157,12 +157,7 @@ h2 {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-}
-.container-header {
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 .header-navigation {
   display: flex;
@@ -265,9 +260,6 @@ h2 {
 }
 .sectiol-list-four {
   width: calc((100% - 48px) / 3);
-}
-.footer-logo-two {
-  display: inline-block;
 }
 .visually-hidden {
   position: absolute;
