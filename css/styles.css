@@ -260,7 +260,9 @@ img {
 .sectiol-list-four {
   width: calc((100% - 48px) / 3);
 }
-
+.product-list {
+  width: calc((100% - 48px) / 3);
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
