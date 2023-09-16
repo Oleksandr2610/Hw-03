@@ -14,13 +14,12 @@ button {
 }
 
 img {
-  display: block;
 }
 
 .header {
+  display: flex;
   flex-shrink: 0;
   border-bottom: 1px solid #e7e9fc;
-  display: flex;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -148,12 +147,17 @@ img {
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
-
 .container {
+  flex-shrink: 0;
+  border-bottom: 1px solid #e7e9fc;
+}
+.container-header {
+  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
 }
+
 .header-navigation {
   display: flex;
   align-items: center;
