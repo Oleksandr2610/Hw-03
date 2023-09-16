@@ -16,10 +16,6 @@ button {
 img {
   display: block;
 }
-h1,
-h2 {
-  display: none;
-}
 
 .header {
   flex-shrink: 0;
@@ -260,6 +256,7 @@ h2 {
 .sectiol-list-four {
   width: calc((100% - 48px) / 3);
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
