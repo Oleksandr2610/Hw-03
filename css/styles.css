@@ -148,6 +148,9 @@ p {
   display: flex;
   gap: 24px;
 }
+.sectiol-list {
+  width: calc((100% - 72px) / 4);
+}
 .section-two-title {
   font-weight: 500;
   font-size: 20px;
