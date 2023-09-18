@@ -89,13 +89,13 @@ p {
   color: #404bbf;
 }
 
-/*section-service*/
-.section-service {
+/*section-one*/
+.section-one {
   background-color: #2e2f42;
   padding: 188px 0;
 }
 
-.service-title {
+.section-one-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -104,9 +104,8 @@ p {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 496px;
 }
-.service-button {
+.section-one-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -126,12 +125,12 @@ p {
   margin-right: auto;
   margin-top: 40px;
 }
-.service-button:hover .service-button:focus {
+.section-one-button:hover .section-one-button:focus {
   background-color: #404bbf;
 }
 
 /*section-two*/
-.section-hov {
+.section-two {
   padding: 120px 0;
 }
 .visually-hidden {
@@ -147,14 +146,14 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.list-hov {
+.list-two {
   display: flex;
   gap: 24px;
 }
 .sectiol-list {
   width: calc((100% - 72px) / 4);
 }
-.hov-title {
+.section-two-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -162,7 +161,7 @@ p {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.hov-text {
+.section-two-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -178,11 +177,11 @@ p {
 }
 
 /*section-three*/
-.section-our-team {
+.section-three {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-.our-team-title-title {
+.section-three-title-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -191,11 +190,11 @@ p {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.list-our-team {
+.list-tree {
   display: flex;
   gap: 24px;
 }
-.sectiol-list-our-team {
+.sectiol-list-three {
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
@@ -203,7 +202,7 @@ p {
 .name-position {
   padding: 32px 0;
 }
-.our-team-title {
+.section-three-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -212,7 +211,7 @@ p {
   text-align: center;
   margin-bottom: 8px;
 }
-.our-team-text {
+.section-three-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -220,10 +219,10 @@ p {
   text-align: center;
 }
 /*section-four*/
-.section-portfolio {
+.section-four {
   padding: 120px 0 120px 0;
 }
-.portfolio-title-title {
+.section-four-title-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -232,7 +231,7 @@ p {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.list-portfolio {
+.list-four {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -271,7 +270,7 @@ p {
   margin: 0 auto;
   padding: 0 15px;
 }
-.logo-footer {
+.logo-two {
   display: inline-block;
   align-items: center;
   flex-shrink: 0;
