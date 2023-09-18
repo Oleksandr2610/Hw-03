@@ -89,13 +89,13 @@ p {
   color: #404bbf;
 }
 
-/*section-one*/
-.section-one {
+/*section-buton*/
+.section-buton {
   background-color: #2e2f42;
   padding: 188px 0;
 }
 
-.section-one-title {
+.buton-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -105,7 +105,7 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-.section-one-button {
+.service-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -125,12 +125,12 @@ p {
   margin-right: auto;
   margin-top: 40px;
 }
-.section-one-button:hover .section-one-button:focus {
+.service-button:hover .service-button:focus {
   background-color: #404bbf;
 }
 
-/*section-two*/
-.section-two {
+/*section-how*/
+.section-how {
   padding: 120px 0;
 }
 .visually-hidden {
@@ -146,14 +146,14 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.list-two {
+.how-list {
   display: flex;
   gap: 24px;
 }
 .sectiol-list {
   width: calc((100% - 72px) / 4);
 }
-.section-two-title {
+.how-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -161,13 +161,13 @@ p {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.section-two-text {
+.how-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.section-two-title-title {
+.how-title-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -177,11 +177,11 @@ p {
 }
 
 /*section-three*/
-.section-three {
+.section-our-team {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-.section-three-title-title {
+.our-team-title-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -190,11 +190,11 @@ p {
   color: #2e2f42;
   margin-bottom: 72px;
 }
-.list-tree {
+.list-our-team {
   display: flex;
   gap: 24px;
 }
-.sectiol-list-three {
+.sectiol-list-our-team {
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
@@ -202,7 +202,7 @@ p {
 .name-position {
   padding: 32px 0;
 }
-.section-three-title {
+.name-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -211,7 +211,7 @@ p {
   text-align: center;
   margin-bottom: 8px;
 }
-.section-three-text {
+.name-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -270,7 +270,7 @@ p {
   margin: 0 auto;
   padding: 0 15px;
 }
-.logo-two {
+.logo-footer {
   display: inline-block;
   align-items: center;
   flex-shrink: 0;
